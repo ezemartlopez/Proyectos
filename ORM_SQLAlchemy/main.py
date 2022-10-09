@@ -1,9 +1,9 @@
-from unittest import main
-import db
-from models import Producto
+import db #enlace ala base de datos
+from models import Producto #estructura de cada registro de la base de datos
+# Modulo faker se encarga de crear los datos 
 from faker import Faker
 from faker.providers import DynamicProvider
-from random import randint
+from random import randint #funcion de numeros enteros aleatorios
 
 #Diccionario con los precios de los productos
 dict_price_product = {
